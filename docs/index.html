@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tsai-scoretest Documentation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
@@ -204,6 +204,51 @@
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.9rem;
             line-height: 1.6;
+            color: #e2e8f0;
+        }
+        
+        /* Override highlight.js colors for better visibility */
+        .hljs {
+            background: #1e293b !important;
+            color: #e2e8f0 !important;
+        }
+        
+        .hljs-keyword,
+        .hljs-selector-tag {
+            color: #c792ea !important;
+        }
+        
+        .hljs-string,
+        .hljs-attr {
+            color: #a5d6a7 !important;
+        }
+        
+        .hljs-number,
+        .hljs-literal {
+            color: #f78c6c !important;
+        }
+        
+        .hljs-function,
+        .hljs-title {
+            color: #82aaff !important;
+        }
+        
+        .hljs-comment {
+            color: #78909c !important;
+            font-style: italic;
+        }
+        
+        .hljs-built_in,
+        .hljs-builtin-name {
+            color: #ffcb6b !important;
+        }
+        
+        .hljs-params {
+            color: #89ddff !important;
+        }
+        
+        .hljs-meta {
+            color: #ffcb6b !important;
         }
         
         code:not(pre code) {
@@ -1803,7 +1848,7 @@ OLS Regression Results (for reference)
     <!-- Footer -->
     <footer>
         <p><strong>tsai-scoretest</strong> v1.0.0</p>
-        <p>Developed by <a href="mailto:merwanroudane920@gmail.com">Dr. Merwan Roudane</a></p>
+        <p>Developed by <a href="/cdn-cgi/l/email-protection#09646c7b7e68677b667c6d68676c303b39496e64686065276a6664">Dr. Merwan Roudane</a></p>
         <div class="footer-links">
             <a href="https://github.com/merwanroudane/scoretest">GitHub Repository</a>
             <a href="https://pypi.org/project/tsai-scoretest/">PyPI Package</a>
@@ -1812,7 +1857,7 @@ OLS Regression Results (for reference)
         <p style="margin-top: 1rem; opacity: 0.7;">© 2024 MIT License</p>
     </footer>
     
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Initialize syntax highlighting
         document.addEventListener('DOMContentLoaded', function() {
             hljs.highlightAll();
@@ -1836,12 +1881,4 @@ OLS Regression Results (for reference)
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+                        be
