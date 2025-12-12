@@ -1,4 +1,3 @@
-# tsai-scoretest
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -334,3 +333,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Multiple weight function specifications
 - Comprehensive test suite
 - Publication-ready output formatting
+=======
