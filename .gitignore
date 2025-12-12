@@ -154,3 +154,4 @@ simulations/
 tmp/
 temp/
 *.tmp
+-w.txt
